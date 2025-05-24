@@ -11,9 +11,8 @@ while (groot)
 
     if (resposta == "Tchau")
     {
-
+      
         break;
 }
 }
 
-Console.WriteLine("Eu sou Groot!");
