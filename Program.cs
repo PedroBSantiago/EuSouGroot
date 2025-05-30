@@ -5,14 +5,21 @@ string resposta;
 
 while (groot)
 {
+
     Console.Write($"Pergunta: ");
     resposta = Console.ReadLine()!;
-    Console.WriteLine("Resposta: Eu sou Groot.");
 
-    if (resposta == "Tchau")
+
+    if (resposta != "Tchau")
     {
-      
+        Console.WriteLine("Resposta: Eu sou Groot");
+
+    }
+    else if (resposta == "Tchau")
+    {
+        Console.WriteLine("Resposta: Eu sou Groot!");
+
         break;
-}
+   }
 }
 
